@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:wght@300;400;500;600;700&family=Spline+Sans:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+  --font-family-primary: "Work Sans", sans-serif;
+  --font-family-secondary: "Spline Sans", "Lora", "Fraunces", serif;
+  --font-family-tertiary: "Spline Sans", "IBM Plex Mono", "Space Mono", monospace;
+
+  --c-black: #191717;
+  --c-navy: #011627;
+  --c-yellow: #F4E461;
+  --c-white: #F6F6F6;
+  --c-bg-secondary: #F47EAB;
+  --c-teal: #21C4D1;
+  --c-orange: #ED8D07; 
+
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  // cursor: url(../img/cursor.png), auto;
+  font-family: var(--font-family-primary);
+  color: var(--c-white);
+  background-color: var(--c-black);
+  background-image: url("../styles/images/bg.svg");
+  background-repeat: repeat;
+  line-height: 1.5;
+}
+
+
+*:focus {
+  outline: none; 
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-primary);
+  color: var(--c-black);
+  font-weight: 800;
+  margin: 0;
+}
+
+h1 {
+  margin-top: -5px;
+  font-size: 80px;
+  line-height: 5rem;
+  
+  @include on-breakpoint(tablet-up) {
+    font-size: 180px;
+    line-height: 10rem;
+}
+
+}
+
+
+@mixin focus-hover {
+  text-decoration: none;
+  background: linear-gradient(to right, var(--c-link-primary) 50%, transparent 50%);
+  background-size: 210% 100%;
+  background-position: right bottom;
+  transition: 0.25s ease;
+  box-shadow: 0 1px 0 0 currentColor;
+ 
+  &:focus {
+    background-position: left top;
+  }
+}
+

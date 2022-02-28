@@ -1,0 +1,46 @@
+@mixin respond($breakpoint) {
+    @if $breakpoint == phone {
+      @media (max-width: 600px) {
+        @content;
+      }
+    }
+    @if $breakpoint == tab-port {
+      @media (max-width: 840px) {
+        @content;
+      }
+    }
+    @if $breakpoint == tab-land {
+      @media (max-width: 1040px) {
+        @content;
+      }
+    }
+    @if $breakpoint == big-desktop {
+      @media (min-width: 1500px) {
+        @content;
+      }
+    }
+  }
+
+
+@mixin on-breakpoint($size) {
+  @if $size == "tablet-up" {
+    @media (min-width: 800px) {
+      @content;
+    }
+  }
+}
+
+@mixin slide-in-hover {
+  text-decoration: none;
+  background: linear-gradient(to right, var(--c-link-primary) 50%, transparent 50%);
+  background-size: 210% 100%;
+  background-position: right bottom;
+  transition: 0.25s ease;
+  box-shadow: 0 1px 0 0 currentColor;
+  &:hover {
+    background-position: left top;
+  }
+  &:focus {
+    background-position: left top;
+  }
+}

@@ -1,0 +1,49 @@
+.hero {
+  display: flex;
+  align-items: stretch;
+ 
+}
+
+.sidebar {
+  // border-right: 2px dashed var(--c-white);
+  position: relative; 
+  margin-top: 58vh;
+  margin-left: -3rem;
+  padding-left: 5rem;
+
+
+}
+
+
+.sidebar-title {
+  top: 1rem;
+  position: sticky;
+  transform: rotate(90deg);
+  @include on-breakpoint(tablet-up) {
+    margin-left: -1.3rem;
+  }
+
+ span {
+    position: absolute;
+    left: 20px;
+    line-height: 1.8;
+    transform-origin: 0 0;
+    font-size: .8rem;
+    font-family: var(--font-family-tertiary);
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    color: var(--c-white);
+    display: inline-flex;
+    width: 350px;
+
+    svg {
+      margin-right: 0.5rem;
+      // display: inline-block;
+      vertical-align: middle;
+      width: 25px;
+      height: 25px;
+    }
+
+    
+  }
+}
