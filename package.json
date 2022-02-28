@@ -5,15 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build --no-minify index.html"
+    "build": "parcel build index.html"
   },
   "keywords": [],
   "author": "MK-NG",
   "license": "ISC",
-
   "devDependencies": {
     "@parcel/transformer-sass": "^2.3.2",
-    "parcel-bundler": "^1.12.5",
-    "parcel": "^2.3.2"
+    "parcel": "^2.3.2",
+    "parcel-bundler": "^1.12.5"
   }
 }
