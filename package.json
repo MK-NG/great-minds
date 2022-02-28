@@ -1,4 +1,16 @@
 {
+  "name": "greatminds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build --no-minify index.html"
+  },
+  "keywords": [],
+  "author": "MK-NG",
+  "license": "ISC",
+
   "devDependencies": {
     "@parcel/transformer-sass": "^2.3.2",
     "parcel": "^2.3.2"
