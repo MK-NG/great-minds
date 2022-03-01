@@ -29,7 +29,7 @@
   background: var(--c-white);
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
   transform: rotate(-1.84deg);
-  margin-bottom: 5px;
+  margin-bottom: 100px;
   @include on-breakpoint(tablet-up) {
     width: 700px;
    }
