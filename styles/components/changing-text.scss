@@ -6,6 +6,7 @@
     content:"";
     animation: spin 6s linear infinite;
     font-weight: 600;
+    display: block;
   }
   @keyframes spin {
     10% { content:"PLAY"; }
@@ -20,3 +21,53 @@
 
 
   }
+
+
+  @-moz-keyframes spin {
+       10% { content:"PLAY"; }
+    20% { content:"IMAGINE"; }
+    30% { content:"CONNECT"; }
+    40% { content:"EXPLORE"; }
+    50% { content: "INSPIRE"; }
+    60% { content: "EDUCATE"; }
+    70% { content: "THINK"; }
+    80% { content: "IMAGINE"; }
+    90% { content: "EXPLORE"; }
+  }
+  
+  @-webkit-keyframes spin {
+       10% { content:"PLAY"; }
+    20% { content:"IMAGINE"; }
+    30% { content:"CONNECT"; }
+    40% { content:"EXPLORE"; }
+    50% { content: "INSPIRE"; }
+    60% { content: "EDUCATE"; }
+    70% { content: "THINK"; }
+    80% { content: "IMAGINE"; }
+    90% { content: "EXPLORE"; }
+  }
+  
+  @-o-keyframes spin {
+       10% { content:"PLAY"; }
+    20% { content:"IMAGINE"; }
+    30% { content:"CONNECT"; }
+    40% { content:"EXPLORE"; }
+    50% { content: "INSPIRE"; }
+    60% { content: "EDUCATE"; }
+    70% { content: "THINK"; }
+    80% { content: "IMAGINE"; }
+    90% { content: "EXPLORE"; }
+  }
+  
+  @-ms-keyframes spin {
+       10% { content:"PLAY"; }
+    20% { content:"IMAGINE"; }
+    30% { content:"CONNECT"; }
+    40% { content:"EXPLORE"; }
+    50% { content: "INSPIRE"; }
+    60% { content: "EDUCATE"; }
+    70% { content: "THINK"; }
+    80% { content: "IMAGINE"; }
+    90% { content: "EXPLORE"; }
+  }
+  
