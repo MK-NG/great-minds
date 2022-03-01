@@ -1,0 +1,18 @@
+#spin {
+    color: var(--c-orange);
+    padding-left: 5px;
+  }
+  #spin:after {
+    content:"";
+    animation: spin 10s linear infinite;
+    font-weight: 600;
+  }
+  @keyframes spin {
+    0% { content:"THINK"; }
+    10% { content:"PLAY"; }
+    20% { content:"IMAGINE"; }
+    30% { content:"CONNECT"; }
+    40% { content:"EXPLORE"; }
+    50% { content: "INSPIRE"; }
+    60% { content: "EDUCATE"; }
+  }

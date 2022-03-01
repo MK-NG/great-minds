@@ -15,10 +15,12 @@
   .section-body {
     display: flex;
     flex: 1;
-    padding-top: 3rem;
+    padding-top: 0rem;
     padding-bottom: 6rem;
+    padding-left:10%;
+
     @include on-breakpoint(tablet-up) {
-      padding-top: 8rem;
+      padding-top: 0rem;
       padding-bottom: 12rem;
     }
   }

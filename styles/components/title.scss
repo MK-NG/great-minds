@@ -3,7 +3,7 @@
     position: relative;
     margin-top:45%;
     @include on-breakpoint(tablet-up) {        
-        left: 25%;
+        left: 10%;
         margin-top: 10%;
     }
   }
@@ -37,4 +37,8 @@
    }
   }
   
-  
+  .subtitle {
+      font-size: 50px;
+        line-height: 1;
+
+  }
