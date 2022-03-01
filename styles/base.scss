@@ -55,12 +55,13 @@ h4,
 h5,
 h6 {
   font-family: var(--font-family-primary);
-  color: var(--c-black);
+  color: var(--c-text);
   font-weight: 800;
   margin: 0;
 }
 
 h1 {
+  color: var(--c-black);
   margin-top: -5px;
   font-size: 80px;
   line-height: 5rem;
@@ -70,6 +71,14 @@ h1 {
     line-height: 10rem;
 }
 
+}
+
+h4 {
+  padding-bottom: 50px;
+}
+
+h5 {
+  font-size: 20px;
 }
 
 
@@ -84,4 +93,68 @@ h1 {
   &:focus {
     background-position: left top;
   }
+}
+
+
+.margin-top-l {
+  margin-top: 150px;
+}
+
+.highlight {
+  font-weight: 600;
+}
+
+.card {
+  padding-right: 30px;
+  box-sizing: border-box;
+  width: 100%;
+  @include on-breakpoint(tablet-up) {
+    padding-top: 10px;
+    width: 48%;
+  float: left;
+}
+}
+
+.card-text {
+  padding: 20px;
+  border: 2px dashed #EDEDED;
+  margin-bottom: 10px;
+  background: #1e1e1e
+}
+
+.margin-left {
+  @include on-breakpoint(tablet-up) {
+  margin-left: 20px;
+  }
+}
+
+.arrow {
+  display: none;
+@include on-breakpoint(tablet-up) {
+  padding-top: 100px;
+  display: block;
+}
+}
+
+.arrow-top {
+  transform: translate(-5%, 35%)
+}
+.arrow-middle {
+  transform: translate(68%, 88%)
+}
+.arrow-bottom {
+  transform: translate(-5%, 45%)
+}
+
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+.icon-orange {
+  float:right;
+  transform: translate(-9%, -73%)
+
 }

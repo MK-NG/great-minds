@@ -26,10 +26,12 @@
   }
   
   .section-columns {
+    margin-right: 20px;
     @include on-breakpoint(tablet-up) {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
+      max-width: 800px;
     }
     .section-intro {
       @include on-breakpoint(tablet-up) {
@@ -75,7 +77,7 @@
     display: flex;
     flex-direction: column;
     .section-intro {
-      max-width: 700px;
+      max-width: 800px;
     }
     .section-content {
       margin-top: 4rem;
@@ -97,5 +99,34 @@
       }
   
     
+    }
+  }
+
+
+
+.article-list-item {
+    & + .article-list-item {
+      margin-top: 3rem;
+      @include on-breakpoint(tablet-up) {
+        margin-top: 4rem;
+      }
+    }
+  }
+  
+  .article-list-item-title {
+    font-size: 1.375rem;
+    line-height: 1.375;
+    text-transform: capitalize;
+    @include on-breakpoint(tablet-up) {
+      font-size: 2rem;
+    }
+  
+    a {
+      text-decoration: none;
+      @include slide-in-hover();
+    }
+  
+    & + .article-list-item-excerpt {
+      margin-top: 1rem;
     }
   }
