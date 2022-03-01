@@ -108,7 +108,9 @@ h5 {
   padding-right: 30px;
   box-sizing: border-box;
   width: 100%;
+  margin-left: -20px;
   @include on-breakpoint(tablet-up) {
+    margin-left: 0px;
     padding-top: 10px;
     width: 48%;
   float: left;
@@ -118,7 +120,7 @@ h5 {
 .card-text {
   padding: 20px;
   border: 2px dashed #EDEDED;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   background: #1e1e1e
 }
 
@@ -137,13 +139,13 @@ h5 {
 }
 
 .arrow-top {
-  transform: translate(-5%, 35%)
+  transform: translate(-5%, 37%)
 }
 .arrow-middle {
-  transform: translate(68%, 88%)
+  transform: translate(68%, 92%)
 }
 .arrow-bottom {
-  transform: translate(-5%, 45%)
+  transform: translate(-5%, 48%)
 }
 
 .row::after {
