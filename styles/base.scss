@@ -6,8 +6,8 @@
   --font-family-tertiary: "Spline Sans", "IBM Plex Mono", "Space Mono", monospace;
 
 
-  --c-background: #e9e9e9;
-  --c-text: #191717;
+  --c-background: #191717;
+  --c-text: #F6F6F6;
   --c-black: #191717;
   --c-navy: #011627;
   --c-grey: #E9E9E9;
@@ -34,9 +34,9 @@ body {
   line-height: 1.5;
 }
 
-html[data-theme='dark'] {
-  --c-background: #191717;
-  --c-text: #F6F6F6;
+html[data-theme='light'] {
+  --c-background: #e9e9e9;
+  --c-text: #191717;
   background-color: var(--c-background);
   color: var(--c-text);
 
