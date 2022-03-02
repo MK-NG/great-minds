@@ -5,28 +5,75 @@
   #spin:after {
     content:"";
     animation-name: spin;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation-duration: 6s;
+    animation: spin 6s linear infinite;
+    -webkit-animation: spin 6s linear infinite ;
+    -moz-animation: spin 6s linear infinite ;
+    -o-animation: spin 6s linear infinite ;
+    -ms-animation: spin 6s linear infinite ;
     font-weight: 600;
     display: block;
   }
   @keyframes spin {
-    from { content:"PLAY"; }
-   to { content:"IMAGINE"; }
-   from { content:"IMAGINE"; }
-    to { content:"CONNECT"; }
-    from { content:"CONNECT"; }
-    to { content:"EXPLORE"; }
-    from { content:"EXPLORE"; }
-    to { content: "INSPIRE"; }
-    from { content: "INSPIRE"; }
-    to { content: "EDUCATE"; }
-    from { content: "EDUCATE"; }
-    to { content: "THINK"; }
-    from { content: "THINK"; }
-    to { content: "IMAGINE"; }
-    from { content: "IMAGINE"; }
-    to { content: "EXPLORE"; }
+    10% { content:"PLAY"; }
+    20% { content:"IMAGINE"; }
+    30% { content:"CONNECT"; }
+    40% { content:"EXPLORE"; }
+    50% { content: "INSPIRE"; }
+    60% { content: "EDUCATE"; }
+    70% { content: "THINK"; }
+    80% { content: "IMAGINE"; }
+    90% { content: "EXPLORE"; }
+
+
   }
 
+
+  @-moz-keyframes spin {
+    10% { content:"PLAY"; }
+    20% { content:"IMAGINE"; }
+    30% { content:"CONNECT"; }
+    40% { content:"EXPLORE"; }
+    50% { content: "INSPIRE"; }
+    60% { content: "EDUCATE"; }
+    70% { content: "THINK"; }
+    80% { content: "IMAGINE"; }
+    90% { content: "EXPLORE"; }
+  }
+  
+  @-webkit-keyframes spin {
+    10% { content:"PLAY"; }
+    20% { content:"IMAGINE"; }
+    30% { content:"CONNECT"; }
+    40% { content:"EXPLORE"; }
+    50% { content: "INSPIRE"; }
+    60% { content: "EDUCATE"; }
+    70% { content: "THINK"; }
+    80% { content: "IMAGINE"; }
+    90% { content: "EXPLORE"; }
+  }
+  
+  @-o-keyframes spin {
+    10% { content:"PLAY"; }
+    20% { content:"IMAGINE"; }
+    30% { content:"CONNECT"; }
+    40% { content:"EXPLORE"; }
+    50% { content: "INSPIRE"; }
+    60% { content: "EDUCATE"; }
+    70% { content: "THINK"; }
+    80% { content: "IMAGINE"; }
+    90% { content: "EXPLORE"; }
+  }
+  
+  @-ms-keyframes spin {
+    10% { content:"PLAY"; }
+    20% { content:"IMAGINE"; }
+    30% { content:"CONNECT"; }
+    40% { content:"EXPLORE"; }
+    50% { content: "INSPIRE"; }
+    60% { content: "EDUCATE"; }
+    70% { content: "THINK"; }
+    80% { content: "IMAGINE"; }
+    90% { content: "EXPLORE"; }
+  }
+  
