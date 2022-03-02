@@ -12,7 +12,9 @@
         // margin-left: 0%;
         margin-left: -70px;
         margin-top: 15%;
-
+    } 
+    @include respond(phone){
+        margin-left:0%;
     } 
  
   }
