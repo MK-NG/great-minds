@@ -5,6 +5,10 @@
   #spin:after {
     content:"";
     animation: spin 6s linear infinite;
+    -webkit-animation: spin 6s linear infinite;
+    -moz-animation: fadeIn 6s linear infinite;
+    -o-animation: fadeIn 6s linear infinite;
+    -ms-animation: fadeIn 6s linear infinite;
     font-weight: 600;
     display: block;
   }
@@ -24,7 +28,7 @@
 
 
   @-moz-keyframes spin {
-       10% { content:"PLAY"; }
+    10% { content:"PLAY"; }
     20% { content:"IMAGINE"; }
     30% { content:"CONNECT"; }
     40% { content:"EXPLORE"; }
@@ -36,7 +40,7 @@
   }
   
   @-webkit-keyframes spin {
-       10% { content:"PLAY"; }
+    10% { content:"PLAY"; }
     20% { content:"IMAGINE"; }
     30% { content:"CONNECT"; }
     40% { content:"EXPLORE"; }
@@ -48,7 +52,7 @@
   }
   
   @-o-keyframes spin {
-       10% { content:"PLAY"; }
+    10% { content:"PLAY"; }
     20% { content:"IMAGINE"; }
     30% { content:"CONNECT"; }
     40% { content:"EXPLORE"; }
@@ -60,7 +64,7 @@
   }
   
   @-ms-keyframes spin {
-       10% { content:"PLAY"; }
+    10% { content:"PLAY"; }
     20% { content:"IMAGINE"; }
     30% { content:"CONNECT"; }
     40% { content:"EXPLORE"; }
