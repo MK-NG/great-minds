@@ -26,15 +26,10 @@
       padding-bottom: 12rem;
     }
     @include respond(tab-land){
-        margin-left: 0%;
+        margin-left: -40px;
     } 
   }
 
-  .section-body-cards {
-  //  margin-left: -10% !important;
-
-
-}
   
   .section-columns {
     margin-right: 20px;
