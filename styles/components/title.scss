@@ -1,7 +1,6 @@
 
 .title {
     position: relative;
-    margin-top:45%;
     @include on-breakpoint(tablet-up) {        
         left: 10%;
         margin-top: 10%;
@@ -14,7 +13,8 @@
         margin-top: 15%;
     } 
     @include respond(phone){
-        margin-left:0%;
+        margin-left:5%;
+        margin-top: 45%;
     } 
  
   }
