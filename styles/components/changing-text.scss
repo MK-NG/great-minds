@@ -5,10 +5,10 @@
   #spin:after {
     content:"";
     animation: spin 6s linear infinite;
-    -webkit-animation: spin 6s linear infinite;
-    -moz-animation: fadeIn 6s linear infinite;
-    -o-animation: fadeIn 6s linear infinite;
-    -ms-animation: fadeIn 6s linear infinite;
+    -webkit-animation: spin linear infinite 6s;
+    -moz-animation: spin linear infinite 6s;
+    -o-animation: spin linear infinite 6s;
+    -ms-animation: spin linear infinite 6s;
     font-weight: 600;
     display: block;
   }
