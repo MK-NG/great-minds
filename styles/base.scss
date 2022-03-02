@@ -7,6 +7,7 @@
 
 
   --c-background: #191717;
+  --c-card-bg: #1e1e1e;
   --c-text: #F6F6F6;
   --c-black: #191717;
   --c-navy: #011627;
@@ -16,6 +17,9 @@
   --c-bg-secondary: #F47EAB;
   --c-teal: #21C4D1;
   --c-orange: #ED8D07; 
+  --c-arrow: #EEEEEE;
+  --c-dashed-border: #EDEDED;
+
 
 }
 
@@ -38,8 +42,11 @@ body {
 html[data-theme='light'] {
   --c-background: #e9e9e9;
   --c-text: #191717;
+  --c-arrow: #191717;
   background-color: var(--c-background);
   color: var(--c-text);
+  --c-card-bg: #E9E9E9;
+  --c-dashed-border: #191717;
 
 }
 
@@ -120,9 +127,9 @@ h5 {
 
 .card-text {
   padding: 20px;
-  border: 2px dashed #EDEDED;
+  border: 2px dashed var(--c-dashed-border);
   margin-bottom: 20px;
-  background: #1e1e1e
+  background: var(--c-card-bg)
 }
 
 .margin-left {
@@ -164,4 +171,8 @@ h5 {
 
 .center {
   margin-left: 50%;
+}
+
+.arrow-color {
+  fill: var(--c-arrow)
 }
