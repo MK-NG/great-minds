@@ -32,6 +32,7 @@ body {
   background-image: url("../styles/images/bg.svg");
   background-repeat: repeat;
   line-height: 1.5;
+  
 }
 
 html[data-theme='light'] {
@@ -139,13 +140,13 @@ h5 {
 }
 
 .arrow-top {
-  transform: translate(-5%, 37%)
+  transform: translate(-5%, 8%)
 }
 .arrow-middle {
   transform: translate(68%, 92%)
 }
 .arrow-bottom {
-  transform: translate(-5%, 48%)
+  transform: translate(-5%, 59%)
 }
 
 .row::after {
@@ -159,4 +160,8 @@ h5 {
   float:right;
   transform: translate(-9%, -73%)
 
+}
+
+.center {
+  margin-left: 50%;
 }

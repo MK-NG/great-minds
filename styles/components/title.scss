@@ -5,7 +5,16 @@
     @include on-breakpoint(tablet-up) {        
         left: 10%;
         margin-top: 10%;
+        margin-left: -10px;
+        margin-left: 15%;
     }
+    @include respond(tab-land){
+        // margin-left: 0%;
+        margin-left: -70px;
+        margin-top: 15%;
+
+    } 
+ 
   }
   
   
