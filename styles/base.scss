@@ -37,7 +37,8 @@ body {
   background-image: url("../styles/images/bg.svg");
   background-repeat: repeat;
   line-height: 1.5;
-  
+  overflow-x: hidden;
+  position: relative;
 }
 
 html[data-theme='light'] {
