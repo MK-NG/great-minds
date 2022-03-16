@@ -38,7 +38,7 @@
 
   
   .section-columns {
-    margin-right: 20px;
+    padding-right: 20px;
     @include on-breakpoint(tablet-up) {
       display: flex;
       flex-wrap: wrap;
