@@ -2,9 +2,7 @@
 .card {
     box-sizing: border-box;
     width: 100%;
-    margin-left: -20px;
     @include on-breakpoint(tablet-up) {
-      margin-left: 0px;
       padding-top: 10px;
       width: 48%;
     float: left;
